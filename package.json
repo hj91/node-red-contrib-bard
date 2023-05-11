@@ -1,0 +1,33 @@
+{
+  "name": "node-red-contrib-bard",
+  "version": "0.0.1",
+  "description": "A Node-RED module for interacting with Bard.",
+  "author": "Harshad Joshi",
+  "license": "MIT",
+  "main": "bard.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "bard": "bard.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hj91/node-red-contrib-bard.git"
+  },
+  "keywords": [
+    "node-red",
+    "bard",
+    "messaging",
+    "BARD",
+    "AI",
+    "ChatGPT",
+    "Google"
+  ],
+  "dependencies": {
+    "axios": "^0.23.0"
+  }
+}
+
